@@ -1,18 +1,17 @@
 #include <iostream>
 using namespace std;
 
-// ¿À¸§Â÷¼ø Á¤·Ä
+// ì˜¤ë¦„ì°¨ìˆœ ì •ë ¬
 
 int main() {
-	int num[5];
-	int i, arr;
+	int num[5], i, arr;
 
 	for (i = 0; i < 5; i++){
-		cout << i + 1 << "¹øÂ° ¼ö¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä: ";
+		cout << i + 1 << "ë²ˆì§¸ ìˆ˜ë¥¼ ìž…ë ¥í•´ì£¼ì„¸ìš”: ";
 		cin >> num[i];
 	}
 	
-	cout << "¿À¸§Â÷¼ø Á¤·Ä : ";
+	cout << "ì˜¤ë¦„ì°¨ìˆœ ì •ë ¬ : ";
 	for (i = 0; i < 5; i++) {
 		for (int j = i; j < 5; j++){
 			if (num[i] > num[j]) {
